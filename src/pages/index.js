@@ -51,6 +51,9 @@ export default function Home() {
                   className="btn-icon"
                 />
               </a>
+              <a href="https://www.youtube.com/@ZABIFF-ue3ot/videos" target="_blank" rel="noopener noreferrer" className="btn-youtube">
+                🎥 YouTube Channel
+              </a>
               <Link href="/contact" className="btn-secondary">
                 Join / Contact
               </Link>

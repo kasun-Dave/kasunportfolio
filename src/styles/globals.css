@@ -219,6 +219,27 @@ a {
   filter: brightness(0);
 }
 
+.btn-youtube {
+  background-color: #FF0000;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  border: 2px solid #FF0000;
+}
+
+.btn-youtube:hover {
+  background-color: #CC0000;
+  border-color: #CC0000;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
+}
+
 .btn-secondary {
   color: #1F1F1F;
   padding: 1rem 2rem;

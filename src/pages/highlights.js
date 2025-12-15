@@ -23,8 +23,11 @@ export default function Highlights() {
           <div className="highlights-content">
             <div className="highlight-placeholder">
               <div className="placeholder-icon">🎥</div>
-              <h3>Coming Soon!</h3>
-              <p>Epic gameplay moments and cricket highlights will be featured here.</p>
+              <h3>Watch My Videos!</h3>
+              <p>Check out my Free Fire gameplay, strategies, and cricket highlights on YouTube.</p>
+              <a href="https://www.youtube.com/@ZABIFF-ue3ot/videos" target="_blank" rel="noopener noreferrer" className="youtube-btn">
+                🎥 Visit My YouTube Channel
+              </a>
             </div>
           </div>
         </div>
@@ -86,6 +89,25 @@ export default function Highlights() {
           font-size: 1.1rem;
           color: #4A4A4A;
           line-height: 1.7;
+          margin-bottom: 2rem;
+        }
+
+        .youtube-btn {
+          display: inline-block;
+          background-color: #FF0000;
+          color: white;
+          padding: 1.2rem 2.5rem;
+          border-radius: 8px;
+          font-size: 1.2rem;
+          font-weight: 700;
+          text-decoration: none;
+          transition: all 0.3s ease;
+        }
+
+        .youtube-btn:hover {
+          background-color: #CC0000;
+          transform: translateY(-3px);
+          box-shadow: 0 6px 16px rgba(255, 0, 0, 0.4);
         }
 
         @media (max-width: 968px) {

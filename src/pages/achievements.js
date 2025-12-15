@@ -18,6 +18,9 @@ export default function Achievements() {
           <div className="achievements-header">
             <h1 className="achievements-title">Gaming & Sports Journey</h1>
             <p className="achievements-subtitle">My competitive experiences in esports and cricket</p>
+            <a href="https://www.youtube.com/@ZABIFF-ue3ot/videos" target="_blank" rel="noopener noreferrer" className="youtube-btn">
+              🎥 Watch My Gameplay Videos
+            </a>
           </div>
 
           <div className="achievements-grid">
@@ -83,6 +86,26 @@ export default function Achievements() {
           font-size: 1.2rem;
           color: #4A4A4A;
           font-weight: 400;
+          margin-bottom: 1.5rem;
+        }
+
+        .youtube-btn {
+          display: inline-block;
+          background-color: #FF0000;
+          color: white;
+          padding: 1rem 2rem;
+          border-radius: 8px;
+          font-size: 1.1rem;
+          font-weight: 600;
+          text-decoration: none;
+          transition: all 0.3s ease;
+          margin-top: 1rem;
+        }
+
+        .youtube-btn:hover {
+          background-color: #CC0000;
+          transform: translateY(-2px);
+          box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
         }
 
         .achievements-grid {

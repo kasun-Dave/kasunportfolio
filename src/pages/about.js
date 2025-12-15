@@ -78,6 +78,9 @@ export default function About() {
 
           <div className="footer-tagline">
             <h3>&quot;Play with purpose. Compete with discipline.&quot;</h3>
+            <a href="https://www.youtube.com/@ZABIFF-ue3ot/videos" target="_blank" rel="noopener noreferrer" className="youtube-link">
+              🎥 Watch My Gaming Videos on YouTube
+            </a>
           </div>
         </div>
       </main>
@@ -192,6 +195,25 @@ export default function About() {
           font-weight: 600;
           color: #1F1F1F;
           font-style: italic;
+          margin-bottom: 2rem;
+        }
+
+        .youtube-link {
+          display: inline-block;
+          background-color: #FF0000;
+          color: white;
+          padding: 1rem 2rem;
+          border-radius: 8px;
+          font-size: 1.1rem;
+          font-weight: 600;
+          text-decoration: none;
+          transition: all 0.3s ease;
+        }
+
+        .youtube-link:hover {
+          background-color: #CC0000;
+          transform: translateY(-2px);
+          box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
         }
 
         @media (max-width: 968px) {
