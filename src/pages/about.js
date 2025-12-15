@@ -67,7 +67,7 @@ export default function About() {
 
             <div className="about-image">
               <Image 
-                src="/images/profile/ChatGPT Image Dec 15, 2025, 11_13_04 PM.png" 
+                src="/images/profile/kavindu-profile.png" 
                 alt="Kavindu Vikum" 
                 width={400} 
                 height={400}

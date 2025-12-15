@@ -22,7 +22,7 @@ export default function Home() {
           {/* Profile Image */}
           <div className="profile-image-container">
             <Image 
-              src="/images/profile/ChatGPT Image Dec 15, 2025, 11_13_04 PM.png" 
+              src="/images/profile/kavindu-profile.png" 
               alt="Kavindu Vikum Profile" 
               width={550} 
               height={550}
