@@ -24,6 +24,9 @@ export default function Contact() {
             <div className="contact-card">
               <h2>🎮 Gaming</h2>
               <p>Looking for squad members or want to team up in Free Fire? Let&apos;s coordinate and dominate!</p>
+              <a href="https://www.youtube.com/@ZABIFF-ue3ot/videos" target="_blank" rel="noopener noreferrer" className="youtube-btn">
+                🎥 Watch My Gameplay Videos
+              </a>
             </div>
 
             <div className="contact-card">
@@ -99,6 +102,26 @@ export default function Contact() {
           font-size: 1.05rem;
           line-height: 1.7;
           color: #4A4A4A;
+          margin-bottom: 1.5rem;
+        }
+
+        .youtube-btn {
+          display: inline-block;
+          background-color: #FF0000;
+          color: white;
+          padding: 0.75rem 1.5rem;
+          border-radius: 8px;
+          font-size: 1rem;
+          font-weight: 600;
+          text-decoration: none;
+          transition: all 0.3s ease;
+          margin-top: 1rem;
+        }
+
+        .youtube-btn:hover {
+          background-color: #CC0000;
+          transform: translateY(-2px);
+          box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
         }
 
         .contact-info {
