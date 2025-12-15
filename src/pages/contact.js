@@ -5,8 +5,8 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Join / Contact - Kavindu Vikum</title>
-        <meta name="description" content="Get in touch with Kavindu Vikum" />
+        <title>Contact - Kasun Bandara</title>
+        <meta name="description" content="Get in touch with Kasun Bandara" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -16,32 +16,29 @@ export default function Contact() {
       <main className="main-container">
         <div className="contact-container">
           <div className="contact-header">
-            <h1 className="contact-title">Join / Contact</h1>
-            <p className="contact-subtitle">Let&apos;s connect and play together!</p>
+            <h1 className="contact-title">Get in Touch</h1>
+            <p className="contact-subtitle">Open to interesting conversations and collaborations</p>
           </div>
 
           <div className="contact-content">
             <div className="contact-card">
-              <h2>🎮 Gaming</h2>
-              <p>Looking for squad members or want to team up in Free Fire? Let&apos;s coordinate and dominate!</p>
-              <a href="https://www.youtube.com/@ZABIFF-ue3ot/videos" target="_blank" rel="noopener noreferrer" className="youtube-btn">
-                🎥 Watch My Gameplay Videos
-              </a>
+              <h2>Work & Projects</h2>
+              <p>Interested in discussing enterprise systems, AI automation, or technical architecture? I enjoy talking about systems that scale and last.</p>
             </div>
 
             <div className="contact-card">
-              <h2>🏏 Cricket</h2>
-              <p>Interested in cricket discussions or training sessions at Vidyaratha College, Kandy? Reach out!</p>
+              <h2>Creative Collaborations</h2>
+              <p>Exploring projects that blend technology and creativity—music software, audio tools, or experiments at the intersection of sound and code.</p>
             </div>
 
             <div className="contact-card">
-              <h2>📧 Get in Touch</h2>
-              <p>For collaborations, tournaments, or just to chat about gaming and sports strategy.</p>
+              <h2>Mentoring & Learning</h2>
+              <p>Always open to discussions about software craftsmanship, career growth, or sharing experiences from building large-scale systems.</p>
             </div>
           </div>
 
           <div className="contact-info">
-            <p className="tagline">&quot;Play with purpose. Compete with discipline.&quot;</p>
+            <p className="tagline">&quot;Good work doesn&apos;t need to be loud.&quot;</p>
           </div>
         </div>
       </main>
@@ -102,26 +99,6 @@ export default function Contact() {
           font-size: 1.05rem;
           line-height: 1.7;
           color: #4A4A4A;
-          margin-bottom: 1.5rem;
-        }
-
-        .youtube-btn {
-          display: inline-block;
-          background-color: #FF0000;
-          color: white;
-          padding: 0.75rem 1.5rem;
-          border-radius: 8px;
-          font-size: 1rem;
-          font-weight: 600;
-          text-decoration: none;
-          transition: all 0.3s ease;
-          margin-top: 1rem;
-        }
-
-        .youtube-btn:hover {
-          background-color: #CC0000;
-          transform: translateY(-2px);
-          box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
         }
 
         .contact-info {

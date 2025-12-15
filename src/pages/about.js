@@ -6,8 +6,8 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About Me - Kavindu Vikum</title>
-        <meta name="description" content="Learn more about Kavindu Vikum" />
+        <title>About - Kasun Bandara</title>
+        <meta name="description" content="Learn more about Kasun Bandara" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -23,43 +23,44 @@ export default function About() {
           <div className="about-content">
             <div className="about-text">
               <p className="about-intro">
-                I am <strong>Kavindu Vikum</strong>, a passionate esports player specializing in Free Fire, 
-                with strong tactical awareness and team coordination skills. Alongside gaming, I am deeply 
-                involved in cricket, which has shaped my discipline, focus, and leadership.
+                I am <strong>Kasun Bandara</strong>, a Lead Software Engineer at IFS working on enterprise CRM and ERP systems. 
+                My role involves designing and implementing scalable backend features for platforms used by global customers, 
+                while leading technical decisions and mentoring other engineers.
               </p>
               
               <p className="about-description">
-                Representing Vidyaratha College, Kandy, I believe true performance comes from preparation, 
-                consistency, and mental strength. Whether it&apos;s in the virtual battlefield or on the cricket 
-                field, I bring dedication and strategic thinking to every challenge.
+                I like building systems that feel simple on the surface, even when they are complex underneath. 
+                I enjoy solving problems calmly and thinking long-term about maintainability and impact. 
+                Before software, I trained as a musician—learning rhythm, structure, and how small details shape the whole. 
+                That discipline influences how I approach code. I value clarity, focus, and depth over noise.
               </p>
 
               <div className="skills-section">
-                <h2 className="skills-title">Skills & Strengths</h2>
+                <h2 className="skills-title">Skills</h2>
                 <div className="skills-grid">
                   <div className="skill-card">
-                    <span className="skill-icon">🎮</span>
-                    <h3>Free Fire Strategy & Gameplay</h3>
+                    <h3>Development</h3>
+                    <p className="skill-detail">Java, SQL, REST APIs, Enterprise Backend Systems, CRM/ERP Platforms</p>
                   </div>
                   <div className="skill-card">
-                    <span className="skill-icon">🧠</span>
-                    <h3>Fast Decision Making</h3>
+                    <h3>AI & Automation</h3>
+                    <p className="skill-detail">AI Agents, LLM Workflows, Intelligent Features, System-Assisted Decision-Making</p>
                   </div>
                   <div className="skill-card">
-                    <span className="skill-icon">🤝</span>
-                    <h3>Squad Coordination</h3>
+                    <h3>Leadership</h3>
+                    <p className="skill-detail">Technical Decision-Making, Mentoring Engineers, Cross-Team Collaboration</p>
                   </div>
                   <div className="skill-card">
-                    <span className="skill-icon">🏏</span>
-                    <h3>Cricket Discipline & Team Play</h3>
+                    <h3>System Design</h3>
+                    <p className="skill-detail">Large-Scale Features, Performance, Correctness, Long-Term Stability</p>
                   </div>
                   <div className="skill-card">
-                    <span className="skill-icon">⚡</span>
-                    <h3>Competitive Mindset</h3>
+                    <h3>Creative</h3>
+                    <p className="skill-detail">Music Composition, Audio Production, Creative Thinking, Storytelling</p>
                   </div>
                   <div className="skill-card">
-                    <span className="skill-icon">🎯</span>
-                    <h3>Aim & Movement Control</h3>
+                    <h3>Product Thinking</h3>
+                    <p className="skill-detail">UX Collaboration, Feature Design, User-Centered Systems</p>
                   </div>
                 </div>
               </div>
@@ -67,8 +68,8 @@ export default function About() {
 
             <div className="about-image">
               <Image 
-                src="images/profile/kavindu-profile.png" 
-                alt="Kavindu Vikum" 
+                src="images/profile/kasunprofile.png" 
+                alt="Kasun Bandara" 
                 width={400} 
                 height={400}
                 className="about-profile-image"
@@ -77,10 +78,7 @@ export default function About() {
           </div>
 
           <div className="footer-tagline">
-            <h3>&quot;Play with purpose. Compete with discipline.&quot;</h3>
-            <a href="https://www.youtube.com/@ZABIFF-ue3ot/videos" target="_blank" rel="noopener noreferrer" className="youtube-link">
-              🎥 Watch My Gaming Videos on YouTube
-            </a>
+            <h3>&quot;I believe good work doesn&apos;t need to be loud. Whether in code or music, I try to build things that feel balanced, intentional, and human.&quot;</h3>
           </div>
         </div>
       </main>
@@ -160,16 +158,18 @@ export default function About() {
           box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
         }
 
-        .skill-icon {
-          font-size: 2rem;
-          display: block;
-          margin-bottom: 0.5rem;
+        .skill-card h3 {
+          font-size: 1.1rem;
+          font-weight: 700;
+          color: #1F1F1F;
+          margin-bottom: 0.75rem;
         }
 
-        .skill-card h3 {
-          font-size: 1rem;
-          font-weight: 600;
-          color: #1F1F1F;
+        .skill-detail {
+          font-size: 0.95rem;
+          line-height: 1.6;
+          color: #4A4A4A;
+          margin: 0;
         }
 
         .about-image {
@@ -191,29 +191,13 @@ export default function About() {
         }
 
         .footer-tagline h3 {
-          font-size: 1.8rem;
-          font-weight: 600;
+          font-size: 1.5rem;
+          font-weight: 500;
           color: #1F1F1F;
           font-style: italic;
-          margin-bottom: 2rem;
-        }
-
-        .youtube-link {
-          display: inline-block;
-          background-color: #FF0000;
-          color: white;
-          padding: 1rem 2rem;
-          border-radius: 8px;
-          font-size: 1.1rem;
-          font-weight: 600;
-          text-decoration: none;
-          transition: all 0.3s ease;
-        }
-
-        .youtube-link:hover {
-          background-color: #CC0000;
-          transform: translateY(-2px);
-          box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
+          line-height: 1.7;
+          max-width: 900px;
+          margin: 0 auto;
         }
 
         @media (max-width: 968px) {

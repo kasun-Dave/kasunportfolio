@@ -15,13 +15,13 @@ const NavBar = () => {
         <div className="nav-links">
           <Link href="/" className="nav-link active">Home</Link>
           <Link href="/about" className="nav-link">About</Link>
-          <Link href="/achievements" className="nav-link">Achievements</Link>
-          <Link href="/highlights" className="nav-link">Highlights</Link>
+          <Link href="/achievements" className="nav-link">Experience</Link>
+          <Link href="/highlights" className="nav-link">Work</Link>
         </div>
 
         <div className="logo">
           <Link href="/">
-            <div className="logo-circle">KV</div>
+            <div className="logo-circle">KB</div>
           </Link>
         </div>
 

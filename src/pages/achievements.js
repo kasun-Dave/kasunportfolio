@@ -5,8 +5,8 @@ export default function Achievements() {
   return (
     <>
       <Head>
-        <title>Achievements - Kavindu Vikum</title>
-        <meta name="description" content="Gaming & Sports Journey" />
+        <title>Experience - Kasun Bandara</title>
+        <meta name="description" content="Professional experience building enterprise systems" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -16,48 +16,41 @@ export default function Achievements() {
       <main className="main-container">
         <div className="achievements-container">
           <div className="achievements-header">
-            <h1 className="achievements-title">Gaming & Sports Journey</h1>
-            <p className="achievements-subtitle">My competitive experiences in esports and cricket</p>
-            <a href="https://www.youtube.com/@ZABIFF-ue3ot/videos" target="_blank" rel="noopener noreferrer" className="youtube-btn">
-              🎥 Watch My Gameplay Videos
-            </a>
+            <h1 className="achievements-title">Experience</h1>
+            <p className="achievements-subtitle">Building enterprise systems that scale</p>
           </div>
 
           <div className="achievements-grid">
             <div className="achievement-card">
-              <div className="achievement-icon">🎮</div>
-              <h3>Free Fire Ranked Matches & Tournaments</h3>
-              <p>Competed in various ranked matches and local tournaments, honing strategic gameplay and tactical awareness.</p>
+              <h3>Lead Software Engineer — IFS</h3>
+              <p className="role-period">Present</p>
+              <p>Working on enterprise CRM and ERP systems used by global customers. Designing and implementing scalable backend features while leading technical decisions and mentoring engineers. Collaborating across product, UX, and platform teams to deliver intelligent automation and AI-powered features.</p>
             </div>
 
             <div className="achievement-card">
-              <div className="achievement-icon">👥</div>
-              <h3>Competitive Squad Play Experience</h3>
-              <p>Led and coordinated with squad members in high-pressure situations, developing leadership and communication skills.</p>
+              <h3>Senior Software Engineer — IFS</h3>
+              <p className="role-period">Previous</p>
+              <p>Built and maintained core business logic in large-scale systems. Worked extensively with Java, SQL, REST APIs, and enterprise frameworks. Focused on correctness, performance, and long-term stability in systems that serve mission-critical business operations.</p>
             </div>
 
             <div className="achievement-card">
-              <div className="achievement-icon">🏏</div>
-              <h3>School Cricket Matches & Practice</h3>
-              <p>Representing Vidyaratha College, Kandy in various cricket matches, showcasing teamwork and discipline.</p>
+              <h3>Enterprise System Design</h3>
+              <p>Architecting features for CRM and ERP platforms that handle complex workflows, data integrity, and performance at scale. Building systems where reliability matters and mistakes are expensive.</p>
             </div>
 
             <div className="achievement-card">
-              <div className="achievement-icon">📊</div>
-              <h3>Training, Strategy Analysis & Improvement</h3>
-              <p>Continuous improvement through gameplay analysis, studying strategies, and dedicated practice sessions.</p>
+              <h3>AI & Intelligent Automation</h3>
+              <p>Exploring AI agents, LLM workflows, and system-assisted decision-making. Experimenting with intelligent scoring and automation features that make enterprise software more capable and intuitive.</p>
             </div>
 
             <div className="achievement-card">
-              <div className="achievement-icon">🏆</div>
-              <h3>Competitive Mindset Development</h3>
-              <p>Built mental resilience and focus through consistent participation in competitive environments.</p>
+              <h3>Technical Leadership</h3>
+              <p>Leading architectural discussions, mentoring engineers, and making decisions that affect long-term system health. Helping teams balance moving fast with building things that last.</p>
             </div>
 
             <div className="achievement-card">
-              <div className="achievement-icon">⚡</div>
-              <h3>Performance Under Pressure</h3>
-              <p>Thriving in clutch moments, both in virtual battles and on the cricket field, through preparation and composure.</p>
+              <h3>Music & Creative Work</h3>
+              <p>Trained musician with experience in composition and audio production. Music teaches discipline, structure, and how small details combine into something cohesive—principles that translate directly to software.</p>
             </div>
           </div>
         </div>
@@ -89,24 +82,6 @@ export default function Achievements() {
           margin-bottom: 1.5rem;
         }
 
-        .youtube-btn {
-          display: inline-block;
-          background-color: #FF0000;
-          color: white;
-          padding: 1rem 2rem;
-          border-radius: 8px;
-          font-size: 1.1rem;
-          font-weight: 600;
-          text-decoration: none;
-          transition: all 0.3s ease;
-          margin-top: 1rem;
-        }
-
-        .youtube-btn:hover {
-          background-color: #CC0000;
-          transform: translateY(-2px);
-          box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
-        }
 
         .achievements-grid {
           display: grid;
@@ -128,15 +103,17 @@ export default function Achievements() {
           box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
         }
 
-        .achievement-icon {
-          font-size: 3rem;
-          margin-bottom: 1rem;
-        }
-
         .achievement-card h3 {
           font-size: 1.4rem;
           font-weight: 700;
           color: #1F1F1F;
+          margin-bottom: 0.5rem;
+        }
+
+        .role-period {
+          font-size: 0.95rem;
+          font-weight: 600;
+          color: #666;
           margin-bottom: 1rem;
         }
 

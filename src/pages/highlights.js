@@ -5,8 +5,8 @@ export default function Highlights() {
   return (
     <>
       <Head>
-        <title>Highlights - Kavindu Vikum</title>
-        <meta name="description" content="Watch my gaming and sports highlights" />
+        <title>Work - Kasun Bandara</title>
+        <meta name="description" content="Projects and systems I have built" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -16,18 +16,39 @@ export default function Highlights() {
       <main className="main-container">
         <div className="highlights-container">
           <div className="highlights-header">
-            <h1 className="highlights-title">Watch Highlights</h1>
-            <p className="highlights-subtitle">Top moments from Free Fire matches and cricket games</p>
+            <h1 className="highlights-title">Work</h1>
+            <p className="highlights-subtitle">Building systems that matter</p>
           </div>
 
-          <div className="highlights-content">
-            <div className="highlight-placeholder">
-              <div className="placeholder-icon">🎥</div>
-              <h3>Watch My Videos!</h3>
-              <p>Check out my Free Fire gameplay, strategies, and cricket highlights on YouTube.</p>
-              <a href="https://www.youtube.com/@ZABIFF-ue3ot/videos" target="_blank" rel="noopener noreferrer" className="youtube-btn">
-                🎥 Visit My YouTube Channel
-              </a>
+          <div className="highlights-grid">
+            <div className="highlight-card">
+              <h3>Enterprise CRM Features</h3>
+              <p>Designed and implemented core features for customer relationship management systems used by global enterprises. Built workflows that handle complex business logic while staying maintainable.</p>
+            </div>
+
+            <div className="highlight-card">
+              <h3>ERP Platform Development</h3>
+              <p>Contributed to large-scale ERP systems where performance, data integrity, and correctness are critical. Worked on features that process thousands of transactions while maintaining system stability.</p>
+            </div>
+
+            <div className="highlight-card">
+              <h3>AI-Powered Automation</h3>
+              <p>Exploring intelligent features that make enterprise software more capable. Experimenting with AI agents, scoring systems, and automation that assists rather than replaces human judgment.</p>
+            </div>
+
+            <div className="highlight-card">
+              <h3>Internal Tools & Productivity</h3>
+              <p>Built tools that help teams move faster without breaking things. Created developer utilities, testing frameworks, and automation scripts that reduce friction and improve reliability.</p>
+            </div>
+
+            <div className="highlight-card">
+              <h3>System Architecture & Design</h3>
+              <p>Led architectural discussions for features that need to scale and last. Made decisions about data models, API design, and system boundaries that balance immediate needs with long-term maintainability.</p>
+            </div>
+
+            <div className="highlight-card">
+              <h3>Creative & Music Projects</h3>
+              <p>Side projects that blend technology and creativity. Audio production tools, music composition software, and experiments that explore the intersection of sound and code.</p>
             </div>
           </div>
         </div>
@@ -58,56 +79,37 @@ export default function Highlights() {
           font-weight: 400;
         }
 
-        .highlights-content {
-          min-height: 400px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+        .highlights-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+          gap: 2rem;
+          margin-top: 3rem;
         }
 
-        .highlight-placeholder {
-          text-align: center;
+        .highlight-card {
           background: white;
-          padding: 4rem;
+          padding: 2.5rem;
           border-radius: 16px;
           box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
-        .placeholder-icon {
-          font-size: 5rem;
-          margin-bottom: 1.5rem;
+        .highlight-card:hover {
+          transform: translateY(-8px);
+          box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
         }
 
-        .highlight-placeholder h3 {
-          font-size: 2rem;
+        .highlight-card h3 {
+          font-size: 1.4rem;
           font-weight: 700;
           color: #1F1F1F;
           margin-bottom: 1rem;
         }
 
-        .highlight-placeholder p {
-          font-size: 1.1rem;
-          color: #4A4A4A;
+        .highlight-card p {
+          font-size: 1rem;
           line-height: 1.7;
-          margin-bottom: 2rem;
-        }
-
-        .youtube-btn {
-          display: inline-block;
-          background-color: #FF0000;
-          color: white;
-          padding: 1.2rem 2.5rem;
-          border-radius: 8px;
-          font-size: 1.2rem;
-          font-weight: 700;
-          text-decoration: none;
-          transition: all 0.3s ease;
-        }
-
-        .youtube-btn:hover {
-          background-color: #CC0000;
-          transform: translateY(-3px);
-          box-shadow: 0 6px 16px rgba(255, 0, 0, 0.4);
+          color: #4A4A4A;
         }
 
         @media (max-width: 968px) {
@@ -115,8 +117,8 @@ export default function Highlights() {
             font-size: 2.5rem;
           }
 
-          .highlight-placeholder {
-            padding: 3rem 2rem;
+          .highlights-grid {
+            grid-template-columns: 1fr;
           }
         }
 
@@ -125,16 +127,8 @@ export default function Highlights() {
             font-size: 2rem;
           }
 
-          .highlight-placeholder {
-            padding: 2rem 1.5rem;
-          }
-
-          .placeholder-icon {
-            font-size: 3.5rem;
-          }
-
-          .highlight-placeholder h3 {
-            font-size: 1.5rem;
+          .highlight-card {
+            padding: 2rem;
           }
         }
       `}</style>
